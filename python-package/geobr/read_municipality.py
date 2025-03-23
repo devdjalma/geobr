@@ -4,7 +4,7 @@ from geobr.utils import select_metadata, download_gpkg
 def read_municipality(code_muni="all", year=2010, simplified=True, verbose=False):
     """Download shape files of Brazilian municipalities as sf objects.
 
-     Data at scale 1:250,000, using Geodetic reference system "SIRGAS2000" and CRS(4674)
+    Data at scale 1:250,000, using Geodetic reference system "SIRGAS2000" and CRS(4674)
 
     Parameters
     ----------
